@@ -39,6 +39,12 @@ html {
     background-color: var(--White);
 }
 
+img,
+video {
+    height: 100%;
+    width: 100%;
+}
+
 @font-face {
     font-family: Kumbh_Sans_Regular;
     src: url(Fonts/Kumbh_Sans_Regular.ttf);
@@ -61,8 +67,9 @@ html {
     --Raleway_Thin: Raleway_Thin, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
     /* Others */
-    --Max_Width: min(123em, 100%);
+    --Max_Width: min(100em, 100%);
     --Main_Width: 90%;
+    --Container_Padding_Top: 8em;
 }
 
 .MAX {

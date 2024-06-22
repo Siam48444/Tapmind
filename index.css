@@ -1,0 +1,11 @@
+main {
+    position: relative;
+}
+
+.hero_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    padding-top: var(--Container_Padding_Top);
+    gap: 2em;
+}
