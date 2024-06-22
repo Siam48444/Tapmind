@@ -99,10 +99,10 @@ main {
     text-align: center;
 }
 
-.wells h3 {
-    font-family: var(--Font_2);
-    font-size: 1.3em;
-    color: var(--Black);
+.wells p {
+    font-family: var(--Font_1);
+    font-size: 1em;
+    color: var(--Gray);
     text-align: center;
 }
 
