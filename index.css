@@ -5,7 +5,7 @@ main {
 .hero_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 10em;
+    padding-top: 8em;
     gap: 2em;
 }
 
@@ -36,7 +36,13 @@ main {
     align-items: center;
     justify-content: start;
     gap: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
+}
+
+@media (width < 400px) {
+    .hero_button_container {
+        flex-direction: column;
+    }
 }
 
 .hero_button {
@@ -48,7 +54,36 @@ main {
     color: var(--Black);
 }
 
-
 .a {
     height: 100vh;
+}
+
+@media (width < 1000px) {
+    .hero_left h1 {
+        font-size: 3em;
+    }
+}
+
+@media (width < 800px) {
+    .hero_container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero_left h1,
+    .hero_left p,
+    .hero_button_container {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (width < 600px) {
+    .hero_left h1 {
+        font-size: 2.2em;
+    }
+
+    .hero_left p,
+    .hero_button {
+        font-size: 1em;
+    }
 }
