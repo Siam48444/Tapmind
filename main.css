@@ -47,11 +47,11 @@ video {
 
 @font-face {
     font-family: Font_1;
-    src: url(Fonts/Kumbh_Sans_Regular.ttf);
+    src: url(Fonts/Google_Sans_Regular.ttf);
 }
 @font-face {
     font-family: Font_2;
-    src: url(Fonts/Raleway_Thin.ttf);
+    src: url(Fonts/Google_Sans_Bold.ttf);
 }
 
 :root {

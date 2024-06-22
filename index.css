@@ -20,5 +20,7 @@ main {
 
 .hero_left h1 {
     font-family: var(--Font_2);
-
+    font-size: 4em;
+    line-height: 1.1;
+    color: var(--Black);
 }
