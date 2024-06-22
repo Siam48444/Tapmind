@@ -93,7 +93,7 @@ main {
     border-radius: var(--Primary_Border_Radius);
 }
 
-.wells img {
+.wells svg {
     height: 4em;
     margin-bottom: 2em;
 }
