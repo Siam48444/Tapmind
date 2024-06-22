@@ -20,7 +20,7 @@ main {
 
 .hero_left h1 {
     font-family: var(--Font_2);
-    font-size: 4em;
+    font-size: 3.5em;
     line-height: 1.1;
     color: var(--Black);
 }
@@ -36,6 +36,7 @@ main {
     align-items: center;
     justify-content: start;
     gap: 1em;
+    margin-top: 2em;
 }
 
 .hero_button {
@@ -47,3 +48,7 @@ main {
     color: var(--Black);
 }
 
+
+.a {
+    height: 100vh;
+}

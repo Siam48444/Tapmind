@@ -68,7 +68,7 @@ video {
     --Font_2: Font_2, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
     /* Others */
-    --Max_Width: min(100em, 100%);
+    --Max_Width: min(111em, 100%);
     --Main_Width: 90%;
     --Hover_Transition_Time: 200ms;
     --Primary_Border_Radius: 0.5em;
@@ -106,23 +106,23 @@ video {
 
 nav {
     position: fixed;
-    top: 1em;
+    top: 0;
     left: 50%;
     translate: -50% 0;
     z-index: 9;
+    background-color: var(--White);
 }
 
 .nav_container {
     background-color: var(--White);
-    padding: 1em 1.5em;
-    border-radius: var(--Primary_Border_Radius);
+    padding-block: 1em;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .nav_left img {
-    height: 1.5em;
+    height: 1.2em;
 }
 
 .nav_link_container {
