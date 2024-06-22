@@ -84,7 +84,7 @@ main {
 }
 
 .wells {
-    padding: 1.5em;
+    padding: 3em 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +101,7 @@ main {
 }
 
 .wells svg {
-    height: 4em;
+    height: 3em;
     margin-bottom: 1em;
 }
 
