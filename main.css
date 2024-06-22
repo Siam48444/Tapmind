@@ -107,3 +107,14 @@ video {
         box-shadow: var(--Primary_Box_Shadow) var(--Primary_Dark);
     }
 }
+
+nav {
+    position: fixed;
+    top: 1em;
+    z-index: 9;
+}
+
+.nav_container {
+    background-color: var(--Light_Gray);
+    padding: 0.5em 1.5em;
+}
