@@ -140,6 +140,10 @@ main {
         margin: auto;
         text-align: center;
     }
+
+    .wells_div {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (width < 600px) {
@@ -150,5 +154,9 @@ main {
     .hero_left p,
     .hero_button {
         font-size: 1em;
+    }
+
+    .wells_div {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
