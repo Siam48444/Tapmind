@@ -128,3 +128,22 @@ nav {
 .nav_left img {
     height: 1.5em;
 }
+
+.nav_link_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.nav_link {
+    font-family: var(--Font_1);
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--Gray);
+    padding: 0.3em 0.5em;
+}
+
+.nav_active {
+    color: var(--Primary);
+}
