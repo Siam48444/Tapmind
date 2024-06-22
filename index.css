@@ -92,6 +92,11 @@ main {
     gap: 1em;
 }
 
+.wells img {
+    height: 4em;
+    margin-bottom: 2em;
+}
+
 .wells h3 {
     font-family: var(--Font_2);
     font-size: 1.3em;
