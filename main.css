@@ -89,8 +89,20 @@ video {
     scale: 0.95;
 }
 
+.primary_color_text {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, var(--Primary), var(--Primary_Dark)) !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .primary_button {
-    background-color: var(--Primary) !important;
+    background-image: linear-gradient(90deg, var(--Primary), var(--Primary_Dark)) !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: var(--Primary_Button_Padding);
     border-radius: var(--Primary_Border_Radius);
     font-family: var(--Font_1);
@@ -150,7 +162,12 @@ nav {
 }
 
 .nav_active {
-    color: var(--Primary);
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, var(--Primary), var(--Primary_Dark)) !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hamburger_button {
