@@ -40,7 +40,7 @@ main {
 }
 
 .hero_button {
-    background-color: var(--Light_Gray);
+    background-color: var(--Light_Gray) !important;
     padding: var(--Primary_Button_Padding);
     border-radius: var(--Primary_Border_Radius);
     font-family: var(--Font_1);

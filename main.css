@@ -90,7 +90,7 @@ video {
 }
 
 .primary_button {
-    background-color: var(--Primary);
+    background-color: var(--Primary) !important;
     padding: var(--Primary_Button_Padding);
     border-radius: var(--Primary_Border_Radius);
     font-family: var(--Font_1);
@@ -110,11 +110,11 @@ nav {
     left: 50%;
     translate: -50% 0;
     z-index: 9;
-    background-color: var(--White);
+    background-color: var(--White) !important;
 }
 
 .nav_container {
-    background-color: var(--White);
+    background-color: var(--White) !important;
     padding-block: 1.5em;
     display: flex;
     align-items: center;
@@ -149,4 +149,32 @@ nav {
 
 .nav_active {
     color: var(--Primary);
+}
+
+.hamburger_button {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em;
+    border: none;
+    background-color: var(--Primary) !important;
+    border-radius: var(--Primary_Border_Radius);
+    aspect-ratio: 1;
+    gap: 0.2em;
+    width: 3em;
+}
+
+.hamburger_line {
+    width: 60%;
+    height: 0.15em;
+    border-radius: 9em;
+    background-color: var(--White) !important;
+}
+
+@media (width < 1000px) {
+    .hamburger_button {
+        display: flex;
+    }
 }
