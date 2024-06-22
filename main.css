@@ -115,7 +115,7 @@ nav {
 
 .nav_container {
     background-color: var(--White);
-    padding-block: 1em;
+    padding-block: 1.5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -130,6 +130,13 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 1em;
+}
+
+@media (width < 1000px) {
+    .nav_link_container,
+    .nav_button {
+        display: none;
+    }
 }
 
 .nav_link {
