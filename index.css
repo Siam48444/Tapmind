@@ -30,3 +30,16 @@ main {
     font-size: 1.1em;
     color: var(--Gray);
 }
+
+.hero_button_container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+}
+
+.hero_button {
+    background-color: var(--Light_Gray);
+    padding: 1em 1.5em;
+    border-radius: var(--Primary_Border_Radius);
+}

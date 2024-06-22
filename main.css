@@ -59,7 +59,8 @@ video {
     --Primary_Dark: rgb(62, 58, 141);
     --Primary: rgb(108, 99, 255);
     --Black: rgb(5, 5, 5);
-    --Gray: rgb(130, 130, 130);
+    --Gray: rgb(109, 109, 109);
+    --Light_Gray: rgb(167, 167, 167);
     --White: rgb(250, 250, 250);
 
     /* Fonts */
@@ -70,6 +71,7 @@ video {
     --Max_Width: min(100em, 100%);
     --Main_Width: 90%;
     --Container_Padding_Top: 8em;
+    --Primary_Border_Radius: 0.8em;
 }
 
 .MAX {
