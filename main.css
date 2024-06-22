@@ -89,7 +89,6 @@ video {
 #CLICKABLE:active {
     scale: 0.95;
     box-shadow: none;
-    transition: box-shadow 0ms;
 }
 
 .primary_button {
