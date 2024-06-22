@@ -56,12 +56,12 @@ video {
 
 :root {
     /* Colors */
-    --Primary: rgb(108, 99, 255);
-    --Primary_Dark: rgb(56, 52, 131);
-    --Black: rgb(5, 5, 5);
-    --Gray: rgb(109, 109, 109);
-    --Light_Gray: rgb(231, 231, 231);
-    --White: rgb(250, 250, 250);
+    --Primary: #6c63ff;
+    --Primary_Dark: #383483;
+    --Black: #050505;
+    --Gray: #6d6d6d;
+    --Light_Gray: #e7e7e7;
+    --White: #fafafa;
 
     /* Fonts */
     --Font_1: Font_1, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -90,19 +90,11 @@ video {
 }
 
 .primary_color_text {
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(90deg, var(--Primary), var(--Primary_Dark)) !important;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    color: var(--Primary);
 }
 
 .primary_button {
-    background-image: linear-gradient(90deg, var(--Primary), var(--Primary_Dark)) !important;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: var(--Primary) !important;
     padding: var(--Primary_Button_Padding);
     border-radius: var(--Primary_Border_Radius);
     font-family: var(--Font_1);
@@ -162,12 +154,7 @@ nav {
 }
 
 .nav_active {
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(90deg, var(--Primary), var(--Primary_Dark)) !important;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    color: var(--Primary);
 }
 
 .hamburger_button {
