@@ -5,7 +5,7 @@ main {
 .hero_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: var(--Container_Padding_Top);
+    padding-top: 10em;
     gap: 2em;
 }
 
