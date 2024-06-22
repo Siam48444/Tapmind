@@ -56,8 +56,8 @@ video {
 
 :root {
     /* Colors */
-    --Primary_Dark: rgb(62, 58, 141);
     --Primary: rgb(108, 99, 255);
+    --Primary_Dark: rgb(74, 69, 167);
     --Black: rgb(5, 5, 5);
     --Gray: rgb(109, 109, 109);
     --Light_Gray: rgb(231, 231, 231);
@@ -70,7 +70,8 @@ video {
     /* Others */
     --Max_Width: min(100em, 100%);
     --Main_Width: 90%;
-    --Container_Padding_Top: 8em;
+    --Hover_Transition_Time: 200ms;
+    --Container_Padding_Top: 10em;
     --Primary_Border_Radius: 0.8em;
     --Primary_Button_Padding: 0.8em 1.2em;
 }
@@ -95,4 +96,10 @@ video {
     font-family: var(--Font_1);
     font-size: 1.1em;
     color: var(--White);
+
+    transition: background-color var(--Hover_Transition_Time);
+
+    &:hover {
+        background-color: var(--Primary_Dark);
+    }
 }
