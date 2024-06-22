@@ -76,16 +76,16 @@ video {
     --Primary_Box_Shadow: 0.3em 0.3em 0 var(--Primary_Dark);
 }
 
-#MAX {
+.MAX {
     margin: auto;
     width: var(--Max_Width);
 }
-#MAIN {
+.MAIN {
     margin: auto;
     width: var(--Main_Width);
 }
 
-#CLICKABLE:active {
+.CLICKABLE:active {
     scale: 0.95;
 }
 
