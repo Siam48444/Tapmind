@@ -60,7 +60,7 @@ video {
     --Primary: rgb(108, 99, 255);
     --Black: rgb(5, 5, 5);
     --Gray: rgb(109, 109, 109);
-    --Light_Gray: rgb(167, 167, 167);
+    --Light_Gray: rgb(231, 231, 231);
     --White: rgb(250, 250, 250);
 
     /* Fonts */
@@ -72,13 +72,27 @@ video {
     --Main_Width: 90%;
     --Container_Padding_Top: 8em;
     --Primary_Border_Radius: 0.8em;
+    --Primary_Button_Padding: 0.8em 1.2em;
 }
 
-.MAX {
+#MAX {
     margin: auto;
     width: var(--Max_Width);
 }
-.MAIN {
+#MAIN {
     margin: auto;
     width: var(--Main_Width);
+}
+
+#CLICKABLE:active {
+    scale: 0.95;
+}
+
+.primary_button {
+    background-color: var(--Primary);
+    padding: var(--Primary_Button_Padding);
+    border-radius: var(--Primary_Border_Radius);
+    font-family: var(--Font_1);
+    font-size: 1.1em;
+    color: var(--White);
 }

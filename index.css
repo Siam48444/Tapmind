@@ -40,6 +40,9 @@ main {
 
 .hero_button {
     background-color: var(--Light_Gray);
-    padding: 1em 1.5em;
+    padding: var(--Primary_Button_Padding);
     border-radius: var(--Primary_Border_Radius);
+    font-family: var(--Font_1);
+    font-size: 1.1em;
+    color: var(--Black);
 }
