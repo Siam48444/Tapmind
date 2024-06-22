@@ -45,3 +45,17 @@ html {
     font-family: Raleway_Thin;
     src: url(Fonts/Raleway_Thin.ttf);
 }
+
+:root {
+    /* Colors */
+    --Primary_Dark: rgb(78, 72, 180);
+    --Primary: rgb(108, 99, 255);
+    --Black:rgb(5, 5, 5);
+    --Light: rgb(130, 130, 130);
+
+    /* Fonts */
+    --Kumbh_Sans_Regular: Kumbh_Sans_Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --Raleway_Thin: Raleway_Thin, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Others */
+}
