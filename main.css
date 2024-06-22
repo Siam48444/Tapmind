@@ -111,10 +111,16 @@ video {
 nav {
     position: fixed;
     top: 1em;
+    left: 50%;
+    translate: -50% 0;
     z-index: 9;
 }
 
 .nav_container {
-    background-color: var(--Light_Gray);
-    padding: 0.5em 1.5em;
+    background-color: var(--White);
+    padding: 1em 1.5em;
+    border-radius: var(--Primary_Border_Radius);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
