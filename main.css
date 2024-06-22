@@ -18,3 +18,30 @@ html.lenis body {
 .lenis.lenis-smooth iframe {
     pointer-events: none;
 }
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Kumbh_Sans_Regular;
+    src: url(Fonts/Kumbh_Sans_Regular.ttf);
+}
+@font-face {
+    font-family: Raleway_Thin;
+    src: url(Fonts/Raleway_Thin.ttf);
+}
