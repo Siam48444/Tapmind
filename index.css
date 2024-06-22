@@ -91,7 +91,13 @@ main {
     justify-content: center;
     gap: 0.5em;
     border-radius: var(--Primary_Border_Radius);
-    border: solid 0.01em var(--Primary);
+    border: solid 0.1em var(--Primary);
+
+    transition: box-shadow var(--Hover_Transition_Time);
+
+    &:hover {
+        box-shadow: var(--Primary_Box_Shadow);
+    }
 }
 
 .wells svg {
