@@ -98,8 +98,10 @@ video {
     color: var(--White);
 
     transition: box-shadow var(--Hover_Transition_Time);
+}
 
-    &:hover {
+@media (width > 1000px) {
+    .primary_button:hover {
         box-shadow: var(--Primary_Box_Shadow);
     }
 }
