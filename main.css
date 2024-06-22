@@ -57,7 +57,7 @@ video {
 :root {
     /* Colors */
     --Primary: rgb(108, 99, 255);
-    --Primary_Dark: rgb(74, 69, 167);
+    --Primary_Dark: rgb(66, 62, 150);
     --Black: rgb(5, 5, 5);
     --Gray: rgb(109, 109, 109);
     --Light_Gray: rgb(231, 231, 231);
@@ -88,6 +88,8 @@ video {
 
 #CLICKABLE:active {
     scale: 0.95;
+    box-shadow: none;
+    transition: box-shadow 0ms;
 }
 
 .primary_button {
