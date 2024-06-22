@@ -124,3 +124,7 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
+.nav_left img {
+    height: 1.5em;
+}
