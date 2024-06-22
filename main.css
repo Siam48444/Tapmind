@@ -46,11 +46,11 @@ video {
 }
 
 @font-face {
-    font-family: Kumbh_Sans_Regular;
+    font-family: Font_1;
     src: url(Fonts/Kumbh_Sans_Regular.ttf);
 }
 @font-face {
-    font-family: Raleway_Thin;
+    font-family: Font_2;
     src: url(Fonts/Raleway_Thin.ttf);
 }
 
@@ -63,8 +63,8 @@ video {
     --White: rgb(250, 250, 250);
 
     /* Fonts */
-    --Kumbh_Sans_Regular: Kumbh_Sans_Regular, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    --Raleway_Thin: Raleway_Thin, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    --Font_1: Font_1, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    --Font_2: Font_2, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
     /* Others */
     --Max_Width: min(100em, 100%);

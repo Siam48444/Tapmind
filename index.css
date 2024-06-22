@@ -5,7 +5,20 @@ main {
 .hero_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    place-items: center;
     padding-top: var(--Container_Padding_Top);
     gap: 2em;
+}
+
+.hero_left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1em;
+    justify-content: center;
+}
+
+.hero_left h1 {
+    font-family: var(--Font_2);
+
 }
