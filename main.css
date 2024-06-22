@@ -74,7 +74,7 @@ video {
     --Container_Padding_Top: 10em;
     --Primary_Border_Radius: 0.8em;
     --Primary_Button_Padding: 0.8em 1.2em;
-    --Primary_Box_Shadow: 0 0.2em 0 var(--Primary_Dark);
+    --Primary_Box_Shadow: 0 0.2em 0;
 }
 
 #MAX {
@@ -99,8 +99,10 @@ video {
     color: var(--White);
 
     transition: box-shadow var(--Hover_Transition_Time);
+}
 
-    &:hover {
-        box-shadow: var(--Primary_Box_Shadow);
+@media (width > 1000px) {
+    .primary_button:hover {
+        box-shadow: var(--Primary_Box_Shadow) var(--Primary_Dark);
     }
 }
