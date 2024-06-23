@@ -25,3 +25,6 @@ document.querySelectorAll(".primary_color_text").forEach((primary_text) => {
 // Navigation link color changing animations.
 const nav = document.querySelector("nav");
 const nav_link = document.querySelector(".nav_link");
+
+const services_section = document.getElementById("services_section");
+const home = document.getElementById("home");
