@@ -28,7 +28,5 @@ const nav_link = document.querySelectorAll(".nav_link");
 const home = document.querySelector("#home");
 const services_section = document.querySelector("#services_section");
 
-if (services_section.getBoundingClientRect().top < 0) {
-    nav_link.forEach((link) => link.classList.remove("nav_active"));
-    nav_link[1].classList.add("nav_active");
-}
+gsap.to(".nav_link", { color: "#838383", scrollTrigger: { trigger: services_section, start: "top 0" } });
+gsap.to(nav_link[1], { color: "#6c63ff", scrollTrigger: { trigger: services_section, start: "top 0" } });
