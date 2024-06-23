@@ -4,7 +4,7 @@ html.lenis body {
 }
 
 .lenis.lenis-smooth {
-    scroll-behavior: auto !important;
+    scroll-behavior: auto;
 }
 
 .lenis.lenis-smooth [data-lenis-prevent] {
@@ -94,7 +94,7 @@ video {
 }
 
 .primary_button {
-    background-color: var(--Primary) !important;
+    background-color: var(--Primary);
     padding: var(--Primary_Button_Padding);
     border-radius: var(--Primary_Border_Radius);
     font-family: var(--Font_1);
@@ -116,11 +116,11 @@ nav {
     left: 50%;
     translate: -50% 0;
     z-index: 9;
-    background-color: var(--White) !important;
+    background-color: var(--White);
 }
 
 .nav_container {
-    background-color: var(--White) !important;
+    background-color: var(--White);
     padding-block: 1em;
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ nav {
     justify-content: center;
     padding: 0.4em;
     border: none;
-    background-color: var(--Primary) !important;
+    background-color: var(--Primary);
     border-radius: var(--Primary_Border_Radius);
     aspect-ratio: 1;
     gap: 0.2em;
@@ -175,7 +175,7 @@ nav {
     width: 70%;
     height: 0.15em;
     border-radius: 9em;
-    background-color: var(--White) !important;
+    background-color: var(--White);
 }
 
 @media (width < 1000px) {

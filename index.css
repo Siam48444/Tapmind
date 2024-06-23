@@ -46,7 +46,7 @@ main {
 }
 
 .hero_button {
-    background-color: var(--Light_Gray) !important;
+    background-color: var(--Light_Gray);
     padding: var(--Primary_Button_Padding);
     border-radius: var(--Primary_Border_Radius);
     font-family: var(--Font_1);
@@ -291,16 +291,18 @@ main {
 }
 
 .about_svg_div {
-    background-color: var(--White) !important;
+    background-color: var(--White);
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     display: grid;
     place-items: center;
     opacity: 0;
+
+    transition: background-color var(--Transition_Time);
 }
 
 .about_active {
-    background-color: var(--Primary) !important;
+    background-color: var(--Primary);
 
     & h3,
     & p {
