@@ -15,5 +15,5 @@ gsap.from(".appear_after_load", { opacity: 0, duration: 0.5, stagger: 0.1, delay
 
 // Appear with scroll animations.
 document.querySelectorAll(".appear_with_scroll").forEach((appear) => {
-    gsap.from(appear, { opacity: 0, duration: 0.5, scale: 0.8, scrollTrigger: { trigger: appear, start: "top 60%" } });
+    gsap.from(appear, { opacity: 0, duration: 0.5, scale: 0.9, scrollTrigger: { trigger: appear, start: "top 60%" } });
 });
