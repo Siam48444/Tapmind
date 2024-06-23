@@ -216,9 +216,18 @@ main {
     align-items: center;
     justify-content: left;
     gap: 2em;
+    background-color: green;
 }
 
-.slider svg {
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    background-color: red;
+}
+
+.slide svg {
     height: 5em;
 }
 
