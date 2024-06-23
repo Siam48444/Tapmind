@@ -158,7 +158,7 @@ main {
     justify-content: center;
     gap: 0.5em;
     padding: 2em;
-    aspect-ratio: 1;
+    /* aspect-ratio: 1; */
     border-radius: var(--Primary_Border_Radius);
     border: solid 0.1em var(--Primary);
 
@@ -172,10 +172,10 @@ main {
 }
 
 .services_svg_div {
-    width: 70%;
     display: grid;
     place-items: center;
     margin-bottom: 1em;
+    width: 70%;
 }
 
 .services h4 {
