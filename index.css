@@ -210,7 +210,6 @@ main {
 }
 
 .slider {
-    background-color: coral;
     height: 10em;
     width: 100%;
     display: flex;
@@ -219,9 +218,8 @@ main {
     gap: 2em;
 }
 
-.slide {
-    display: grid;
-    place-items: center;
+.slider svg {
+    height: 5em;
 }
 
 @media (width < 1000px) {
