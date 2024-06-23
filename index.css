@@ -262,7 +262,7 @@ main {
 
 .about svg {
     fill: var(--Primary);
-    height: 2.5em;
+    height: 3em;
 }
 
 @media (width < 1000px) {
