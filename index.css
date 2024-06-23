@@ -148,7 +148,7 @@ main {
     padding-top: 3em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2em;
+    gap: 3em;
 }
 
 .services {
@@ -158,7 +158,7 @@ main {
     justify-content: center;
     gap: 0.5em;
     padding: 2em;
-    height: 100%;
+    aspect-ratio: 1;
     border-radius: var(--Primary_Border_Radius);
     border: solid 0.1em var(--Primary);
 
