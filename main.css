@@ -70,7 +70,7 @@ video {
     /* Others */
     --Max_Width: min(111em, 100%);
     --Main_Width: 90%;
-    --Hover_Transition_Time: 200ms;
+    --Transition_Time: 200ms;
     --Primary_Border_Radius: 0.5em;
     --Primary_Button_Padding: 0.6em 1em;
     --Primary_Box_Shadow: 0.3em 0.3em 0 var(--Primary_Dark);
@@ -101,7 +101,7 @@ video {
     font-size: 1.1em;
     color: var(--White);
 
-    transition: box-shadow var(--Hover_Transition_Time);
+    transition: box-shadow var(--Transition_Time);
 }
 
 @media (width > 1000px) {
@@ -151,6 +151,8 @@ nav {
     font-weight: 400;
     color: var(--Gray);
     padding: 0.3em 0.5em;
+
+    transition: color var(--Transition_Time);
 }
 
 .nav_active {

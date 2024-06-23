@@ -94,7 +94,7 @@ main {
     border-radius: var(--Primary_Border_Radius);
     border: solid 0.1em var(--Primary);
 
-    transition: box-shadow var(--Hover_Transition_Time);
+    transition: box-shadow var(--Transition_Time);
 }
 
 @media (width > 1000px) {
