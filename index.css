@@ -46,7 +46,7 @@ main {
 }
 
 .hero_button {
-    background-color: var(--Light_Gray);
+    background-color: var(--Light_Gray) !important;
     padding: var(--Primary_Button_Padding);
     border-radius: var(--Primary_Border_Radius);
     font-family: var(--Font_1);
@@ -257,7 +257,8 @@ main {
     width: 100%;
     gap: 1em;
 
-    transition: box-shadow var(--Transition_Time);
+    transition-property: box-shadow, background-color;
+    transition-duration: var(--Transition_Time);
 }
 
 @media (width > 1000px) {
@@ -269,6 +270,8 @@ main {
 .about svg {
     fill: var(--Primary);
     height: 3.5em;
+
+    transition: fill var(--Transition_Time);
 }
 
 .about h3 {
@@ -276,12 +279,16 @@ main {
     font-size: 1.5em;
     color: var(--Black);
     margin-bottom: 0.2em;
+
+    transition: color var(--Transition_Time);
 }
 
 .about p {
     font-family: var(--Font_1);
     font-size: 1em;
     color: var(--Black);
+    
+    transition: color var(--Transition_Time);
 }
 
 .about_right {
@@ -291,18 +298,16 @@ main {
 }
 
 .about_svg_div {
-    background-color: var(--White);
+    background-color: var(--White) !important;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     display: grid;
     place-items: center;
     opacity: 0;
-
-    transition: background-color var(--Transition_Time);
 }
 
 .about_active {
-    background-color: var(--Primary);
+    background-color: var(--Primary) !important;
 
     & h3,
     & p {
