@@ -228,6 +228,7 @@ main {
 
 .slide svg {
     height: 5em;
+    fill: var(--Primary);
 }
 
 @media (width < 1000px) {
