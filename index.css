@@ -270,8 +270,6 @@ main {
 .about svg {
     fill: var(--Primary);
     height: 3.5em;
-
-    transition: fill var(--Transition_Time);
 }
 
 .about h3 {
@@ -279,16 +277,12 @@ main {
     font-size: 1.5em;
     color: var(--Black);
     margin-bottom: 0.2em;
-
-    transition: color var(--Transition_Time);
 }
 
 .about p {
     font-family: var(--Font_1);
     font-size: 1em;
     color: var(--Black);
-    
-    transition: color var(--Transition_Time);
 }
 
 .about_right {
@@ -304,6 +298,8 @@ main {
     display: grid;
     place-items: center;
     opacity: 0;
+
+    transition: opacity var(--Transition_Time);
 }
 
 .about_active {
