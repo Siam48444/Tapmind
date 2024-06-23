@@ -84,7 +84,7 @@ main {
 }
 
 .wells {
-    padding: 2em;
+    padding: 3em 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,10 +190,6 @@ main {
     font-size: 1em;
     color: var(--Gray);
     text-align: center;
-}
-
-.a {
-    height: 100vh;
 }
 
 @media (width < 1000px) {

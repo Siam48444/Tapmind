@@ -23,8 +23,12 @@ document.querySelectorAll(".primary_color_text").forEach((primary_text) => {
 });
 
 // Navigation link color changing animations.
-const nav = document.querySelector("nav");
-const nav_link = document.querySelector(".nav_link");
+const nav_link = document.querySelectorAll(".nav_link");
 
-const services_section = document.getElementById("services_section");
 const home = document.getElementById("home");
+const services_section = document.getElementById("services_section");
+
+if (services_section.getBoundingClientRect().top < 0) {
+    nav_link.forEach((link) => link.classList.remove("nav_active"));
+    nav_link[1].classList.add("nav_active");
+}
