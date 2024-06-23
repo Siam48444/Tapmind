@@ -170,6 +170,12 @@ main {
     }
 }
 
+.services_svg_div {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
 .a {
     height: 100vh;
 }
