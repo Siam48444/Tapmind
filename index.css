@@ -207,16 +207,24 @@ main {
     padding-top: 10em;
     display: grid;
     place-items: center;
+    overflow: hidden;
 }
 
 .slider {
-    overflow: hidden;
     height: 10em;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
     gap: 5em;
+
+    animation: carousel linear infinite 5s;
+}
+
+@keyframes carousel {
+    to {
+        transform: translateX(-20.4%);
+    }
 }
 
 .slide {
