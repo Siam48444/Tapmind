@@ -291,11 +291,12 @@ main {
 }
 
 .about_svg_div {
-    background-color: var(--White) !important;
+    /* background-color: var(--White) !important; */
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     display: grid;
     place-items: center;
+    opacity: 0;
 }
 
 .about_active {
@@ -313,6 +314,10 @@ main {
     &:hover {
         box-shadow: none;
     }
+}
+
+.about_svg_active {
+    opacity: 1;
 }
 
 @media (width < 1000px) {
