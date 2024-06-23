@@ -233,7 +233,7 @@ main {
 
 .about_div {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 0.8fr 1.2fr;
     gap: 3em;
     padding-top: 3em;
 }
@@ -260,14 +260,32 @@ main {
 
 .about svg {
     fill: var(--Primary);
-    height: 3em;
+    height: 4em;
 }
 
+.about h3 {
+    font-family: var(--Font_2);
+    font-size: 1.5em;
+    color: var(--Black);
+    margin-bottom: 0.3em;
+} 
+
+.about p {
+    font-family: var(--Font_1);
+    font-size: 1em;
+    color: var(--Black);
+} 
+
 .about_right {
-    background-color: coral;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+}
+
+.about_svg_div {
+    background-color: var(--White);
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 @media (width < 1000px) {
