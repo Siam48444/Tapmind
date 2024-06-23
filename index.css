@@ -5,7 +5,7 @@ main {
 .hero_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-block: 10em 5em;
+    padding-top: 10em;
     gap: 2em;
 }
 
@@ -196,64 +196,6 @@ main {
     font-size: 1em;
     color: var(--Gray);
     text-align: center;
-}
-
-.carousel_section {
-    position: relative;
-}
-
-.carousel_container {
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-
-    &::before,
-    &::after {
-        position: absolute;
-        content: "";
-        height: 100%;
-        width: 25%;
-        z-index: 4;
-    }
-
-    &::after {
-        inset: 0 0 0 auto;
-        background-image: linear-gradient(-90deg, var(--White), transparent);
-    }
-    &::before {
-        inset: 0 auto 0 0;
-        background-image: linear-gradient(90deg, var(--White), transparent);
-    }
-}
-
-.slider {
-    height: 10em;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 4em;
-    position: relative;
-
-    animation: carousel linear infinite 8s;
-}
-
-@keyframes carousel {
-    to {
-        transform: translateX(-20.4%);
-    }
-}
-
-.slide {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 4em;
-}
-
-.slide svg {
-    height: 4em;
-    fill: var(--Primary);
 }
 
 .about_section {
