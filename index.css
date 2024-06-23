@@ -199,6 +199,26 @@ main {
     text-align: center;
 }
 
+.carousel_section {
+    position: relative;
+}
+
+.carousel_container {
+    padding-top: 10em;
+    display: grid;
+    place-items: center;
+}
+
+.slider {
+    background-color: coral;
+    height: 10em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2em;
+}
+
 @media (width < 1000px) {
     .hero_left h1 {
         font-size: 3em;

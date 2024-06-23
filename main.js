@@ -23,10 +23,3 @@ document.querySelectorAll(".primary_color_text").forEach((primary_text) => {
 });
 
 // Navigation link color changing animations.
-const nav_link = document.querySelectorAll(".nav_link");
-
-const home = document.querySelector("#home");
-const services_section = document.querySelector("#services_section");
-
-gsap.to(".nav_link", { color: "#838383", scrollTrigger: { trigger: services_section, start: "top 0" } });
-gsap.to(nav_link[1], { color: "#6c63ff", scrollTrigger: { trigger: services_section, start: "top 0" } });
