@@ -254,7 +254,8 @@ main {
 
 .slide svg {
     height: 5em;
-    fill: var(--Primary);
+    fill: var(--Gray);
+    filter: brightness(1.2);
 }
 
 @media (width < 1000px) {
