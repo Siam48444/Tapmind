@@ -246,6 +246,13 @@ main {
     gap: 2em;
 }
 
+.about {
+    cursor: pointer;
+    border: solid 0.1em var(--Primary);
+    padding: 2em;
+    border-radius: var(--Primary_Border_Radius);
+}
+
 @media (width < 1000px) {
     .hero_left h1 {
         font-size: 3em;
