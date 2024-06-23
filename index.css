@@ -219,6 +219,11 @@ main {
     gap: 2em;
 }
 
+.slide {
+    display: grid;
+    place-items: center;
+}
+
 @media (width < 1000px) {
     .hero_left h1 {
         font-size: 3em;
