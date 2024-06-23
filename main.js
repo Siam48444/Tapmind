@@ -21,9 +21,3 @@ document.querySelectorAll(".appear_with_scroll").forEach((appear) => {
 document.querySelectorAll(".primary_color_text").forEach((primary_text) => {
     gsap.from(primary_text, { color: "#050505", delay: 1.5, duration: 0.5, scrollTrigger: { trigger: primary_text, start: "top 60%" } });
 });
-
-// Navigation link color changing animations.
-const link = document.querySelectorAll(".nav_link");
-
-const home = document.querySelector("#home");
-const services_section = document.querySelector("#services_section");
