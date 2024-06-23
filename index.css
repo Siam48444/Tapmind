@@ -144,6 +144,32 @@ main {
     color: var(--Gray);
 }
 
+.services_div {
+    padding-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em 1.5em;
+    border-radius: var(--Primary_Border_Radius);
+    border: solid 0.1em var(--Primary);
+
+    transition: box-shadow var(--Transition_Time);
+}
+
+@media (width > 1000px) {
+    .services:hover {
+        box-shadow: var(--Primary_Box_Shadow);
+    }
+}
+
 .a {
     height: 100vh;
 }
