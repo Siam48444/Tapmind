@@ -256,6 +256,14 @@ main {
     justify-content: left;
     width: 100%;
     gap: 1em;
+
+    transition: box-shadow var(--Transition_Time);
+}
+
+@media (width > 1000px) {
+    .about:hover {
+        box-shadow: var(--Primary_Box_Shadow);
+    }
 }
 
 .about svg {
@@ -286,6 +294,8 @@ main {
     background-color: var(--White);
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    display: grid;    
+    place-items: center;
 }
 
 @media (width < 1000px) {
