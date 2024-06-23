@@ -5,7 +5,7 @@ main {
 .hero_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-block: 10em;
+    padding-block: 10em 5em;
     gap: 2em;
 }
 
@@ -233,7 +233,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: left;
-    gap: 5em;
+    gap: 4em;
     position: relative;
 
     animation: carousel linear infinite 8s;
@@ -249,13 +249,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 5em;
+    gap: 4em;
 }
 
 .slide svg {
-    height: 5em;
-    fill: var(--Gray);
-    filter: brightness(1.2);
+    height: 4em;
+    fill: var(--Primary);
 }
 
 @media (width < 1000px) {
