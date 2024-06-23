@@ -122,6 +122,28 @@ main {
     text-align: center;
 }
 
+.services_section {
+    position: relative;
+}
+
+.services_container {
+    padding-top: 10em;
+}
+
+.services_title h1 {
+    font-family: var(--Font_2);
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--Black);
+}
+
+.services_title p {
+    font-family: var(--Font_1);
+    font-size: 1.2em;
+    text-align: center;
+    color: var(--Gray);
+}
+
 .a {
     height: 100vh;
 }
