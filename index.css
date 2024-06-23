@@ -171,7 +171,7 @@ main {
 }
 
 .services_svg_div {
-    width: 90%;
+    width: 80%;
     display: grid;
     place-items: center;
 }
