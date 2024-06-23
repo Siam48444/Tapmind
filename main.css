@@ -125,6 +125,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: solid 0.1em var(--Light_Gray);
 }
 
 .nav_left svg {
