@@ -171,9 +171,23 @@ main {
 }
 
 .services_svg_div {
-    width: 100%;
+    width: 90%;
     display: grid;
     place-items: center;
+}
+
+.services h4 {
+    font-family: var(--Font_2);
+    font-size: 1.5em;
+    color: var(--Black);
+    text-align: center;
+}
+
+.services p {
+    font-family: var(--Font_1);
+    font-size: 1em;
+    color: var(--Gray);
+    text-align: center;
 }
 
 .a {
