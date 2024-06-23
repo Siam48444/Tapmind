@@ -94,8 +94,10 @@ main {
     border: solid 0.1em var(--Primary);
 
     transition: box-shadow var(--Hover_Transition_Time);
+}
 
-    &:hover {
+@media (width > 1000px) {
+    .wells:hover {
         box-shadow: var(--Primary_Box_Shadow);
     }
 }
@@ -147,30 +149,30 @@ main {
 
     .wellness_title p {
         font-size: 1em;
-    } 
-    
+    }
+
     .wellness_title h1 {
         font-size: 2em;
-    } 
+    }
 }
 
 @media (width < 600px) {
     .hero_left h1 {
-        font-size: 2.2em;
+        font-size: 2.3em;
     }
-    
+
     .hero_left p,
     .hero_button {
         font-size: 1em;
     }
-    
+
     .wells_div {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .wellness_title h1 {
         font-size: 1.8em;
-    } 
+    }
 
     .wells h3 {
         font-size: 1.2em;
