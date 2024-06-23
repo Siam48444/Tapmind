@@ -142,6 +142,13 @@ main {
     font-size: 1.2em;
     text-align: center;
     color: var(--Gray);
+    margin: auto;
+}
+
+@media (width > 700px) {
+    .services_title p {
+        width: 50%;
+    }
 }
 
 .services_div {
