@@ -175,7 +175,7 @@ main {
     display: grid;
     place-items: center;
     margin-bottom: 1em;
-    width: 90%;
+    width: 80%;
 }
 
 .services h4 {
