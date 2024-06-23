@@ -5,7 +5,7 @@ main {
 .hero_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 10em;
+    padding-block: 10em;
     gap: 2em;
 }
 
@@ -204,10 +204,27 @@ main {
 }
 
 .carousel_container {
-    padding-top: 10em;
     display: grid;
     place-items: center;
     overflow: hidden;
+
+    &::before,
+    &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 20%;
+        z-index: 4;
+    }
+
+    &::after {
+        inset: 0 0 0 auto;
+        background-image: linear-gradient(-90deg, var(--White), transparent);
+    }
+    &::before {
+        inset: 0 auto 0 0;
+        background-image: linear-gradient(90deg, var(--White), transparent);
+    }
 }
 
 .slider {
@@ -217,8 +234,9 @@ main {
     align-items: center;
     justify-content: left;
     gap: 5em;
+    position: relative;
 
-    animation: carousel linear infinite 5s;
+    animation: carousel linear infinite 8s;
 }
 
 @keyframes carousel {
