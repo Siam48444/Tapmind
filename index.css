@@ -221,16 +221,14 @@ main {
 .about_div {
     display: grid;
     grid-template-columns: 0.9fr 1.1fr;
-    gap: 3em;
+    gap: 1.5em;
     padding-top: 3em;
 }
 
 .about_left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5em;
 }
 
 .about {
@@ -327,6 +325,12 @@ main {
     text-align: center;
     color: var(--Gray);
     margin: auto;
+}
+
+.testimonial_div {
+    padding-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 @media (width > 800px) {
