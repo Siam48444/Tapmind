@@ -430,6 +430,12 @@ main {
     place-items: center;
 }
 
+@media (width > 1000px) {
+    .contact_left svg {
+        height: 25em;
+    }
+}
+
 .contact_right {
     display: flex;
     flex-direction: column;
