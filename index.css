@@ -443,6 +443,24 @@ main {
     color: var(--Black);
 }
 
+.contact_inputs_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 1.5em;
+}
+
+.contact_inputs_div input {
+    background-color: transparent !important;
+    border: none;
+    padding: 1em 1.2em;
+    border-radius: var(--Primary_Border_Radius);
+    font-family: var(--Font_1);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Black);
+}
+
 @media (width < 1000px) {
     .hero_left h1 {
         font-size: 3em;
