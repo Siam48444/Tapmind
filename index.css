@@ -254,7 +254,7 @@ main {
     background-color: var(--White) !important;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 1em;
     width: 100%;
 
@@ -333,7 +333,8 @@ main {
 }
 
 @media (width < 850px) {
-    .hero_container,.about_div {
+    .hero_container,
+    .about_div {
         grid-template-columns: 1fr;
     }
 
@@ -386,7 +387,9 @@ main {
         font-size: 1.8em;
     }
 
-    .wells h3 {
+    .wells h3,
+    .services h4,
+    .about h3 {
         font-size: 1.2em;
     }
 }
