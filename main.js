@@ -26,4 +26,11 @@ document.querySelectorAll(".primary_color_text").forEach((primary_text) => {
 const sections = document.querySelectorAll(".sections");
 const nav_link = document.querySelectorAll(".nav_link");
 
-
+window.addEventListener("scroll", () => {
+    for (let i = 0; i < sections.length; i++) {
+        if (sections[i].getBoundingClientRect().top <= 0) {
+            nav_link.forEach((link) => link.classList.remove("nav_active"));
+            nav_link[i].classList.add("nav_active");
+        }
+    }
+});
