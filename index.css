@@ -422,7 +422,7 @@ main {
 .contact_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 4em;
+    gap: 2em;
 }
 
 .contact_left {
@@ -435,6 +435,7 @@ main {
     flex-direction: column;
     align-items: start;
     justify-content: space-between;
+    gap: 3em;
 }
 
 .contact_right h2 {
@@ -446,7 +447,6 @@ main {
 .contact_inputs_div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
     gap: 1.5em;
 }
 
@@ -472,17 +472,24 @@ main {
     .hero_left h1 {
         font-size: 3em;
     }
+
+    .contact_inputs_div {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
 }
 
 @media (width < 850px) {
     .hero_container,
-    .about_div {
+    .about_div,
+    .contact_container {
         grid-template-columns: 1fr;
     }
 
     .hero_left h1,
     .hero_left p,
-    .hero_button_container {
+    .hero_button_container,
+    .contact_right h2 {
         margin: auto;
         text-align: center;
     }
@@ -527,13 +534,14 @@ main {
     .wellness_title h1,
     .services_title h1,
     .about_title h1,
-    .testimonial_title h1 {
+    .testimonial_title h1,
+    .contact_right h2 {
         font-size: 1.8em;
     }
 
     .wells h3,
     .services h4,
-    .about h3 {
+    .about {
         font-size: 1.2em;
     }
 }
