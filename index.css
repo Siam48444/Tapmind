@@ -452,13 +452,19 @@ main {
 
 .contact_inputs_div input {
     background-color: transparent !important;
-    border: none;
+    border: 0.1em solid transparent;
     padding: 1em 1.2em;
     border-radius: var(--Primary_Border_Radius);
     font-family: var(--Font_1);
     font-weight: 400;
     font-size: 1em;
     color: var(--Black);
+
+    transition: border-color var(--Transition_Time);
+
+    &:focus {
+        border-color: var(--Primary);
+    }
 }
 
 @media (width < 1000px) {
