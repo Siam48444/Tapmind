@@ -262,7 +262,7 @@ main {
 }
 
 @media (width > 1000px) {
-    .about:hover {
+    .about:not(.about_active):hover {
         box-shadow: var(--Primary_Box_Shadow);
     }
 }
@@ -285,6 +285,19 @@ main {
     color: var(--Black);
 }
 
+.about_active {
+    background-color: var(--Primary) !important;
+
+    & h3,
+    & p {
+        color: var(--White);
+    }
+
+    & svg {
+        fill: var(--White);
+    }
+}
+
 .about_right {
     display: grid;
     grid-template-columns: 1fr;
@@ -297,30 +310,17 @@ main {
     grid-row: 1 / 2;
     display: grid;
     place-items: center;
+
     opacity: 0;
+    scale: 0.95;
 
-    transition: opacity var(--Transition_Time);
-}
-
-.about_active {
-    background-color: var(--Primary) !important;
-
-    & h3,
-    & p {
-        color: var(--White);
-    }
-
-    & svg {
-        fill: var(--White);
-    }
-
-    &:hover {
-        box-shadow: none;
-    }
+    transition-property: scale, opacity;
+    transition-duration: var(--Transition_Time);
 }
 
 .about_svg_active {
     opacity: 1;
+    scale: 1;
 }
 
 @media (width < 1000px) {
