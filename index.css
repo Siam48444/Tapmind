@@ -489,7 +489,8 @@ main {
     .hero_left h1,
     .hero_left p,
     .hero_button_container,
-    .contact_right h2 {
+    .contact_right h2,
+    .contact_right button {
         margin: auto;
         text-align: center;
     }
@@ -528,7 +529,8 @@ main {
 
     .wells_div,
     .services_div,
-    .testimonial_div {
+    .testimonial_div,
+    .contact_inputs_div {
         grid-template-columns: repeat(1, 1fr);
     }
 
