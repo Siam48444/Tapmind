@@ -419,6 +419,16 @@ main {
     color: var(--Black);
 }
 
+.contact_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact_left {
+    display: grid;
+    place-items: center;
+}
+
 @media (width < 1000px) {
     .hero_left h1 {
         font-size: 3em;
