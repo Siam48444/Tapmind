@@ -359,6 +359,10 @@ main {
 @media (width > 1000px) {
     .testimonial:hover {
         box-shadow: var(--Primary_Box_Shadow);
+
+        & .user_image {
+            outline-color: var(--Primary);
+        }
     }
 }
 
@@ -395,6 +399,10 @@ main {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    outline: solid 0.1em transparent;
+    outline-offset: 0.2em;
+
+    transition: outline-color var(--Transition_Time);
 }
 
 .user_detail h5 {
