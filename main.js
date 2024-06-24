@@ -28,7 +28,7 @@ const nav_link = document.querySelectorAll(".nav_link");
 
 window.addEventListener("scroll", () => {
     for (let i = 0; i < sections.length; i++) {
-        if (sections[i].getBoundingClientRect().top <= 20) {
+        if (sections[i].getBoundingClientRect().top <= (window.innerHeight / 8)) {
             nav_link.forEach((link) => link.classList.remove("nav_active"));
             nav_link[i].classList.add("nav_active");
         }
