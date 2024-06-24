@@ -83,6 +83,7 @@ video {
 .MAIN {
     margin: auto;
     width: var(--Main_Width);
+    padding-top: 10em;
 }
 
 .CLICKABLE:active {
