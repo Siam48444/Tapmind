@@ -453,6 +453,7 @@ main {
 .contact_inputs_div input {
     background-color: transparent !important;
     border: 0.1em solid transparent;
+    outline: none;
     padding: 1em 1.2em;
     border-radius: var(--Primary_Border_Radius);
     font-family: var(--Font_1);
