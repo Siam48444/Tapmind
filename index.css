@@ -339,7 +339,8 @@ main {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 1em;
+    gap: 0.5em;
+    padding: 1.5em;
     border-radius: var(--Primary_Border_Radius);
     border: solid 0.1em var(--Primary);
 
@@ -352,6 +353,23 @@ main {
     }
 }
 
+.testimonial_rank {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.1em;
+}
+
+.testimonial_rank svg {
+    fill: var(--Primary);
+    height: 1.3em;
+}
+
+.testimonial p {
+    font-family: var(--Font_1);
+    font-size: 1em;
+    color: var(--Black);
+}
 
 @media (width > 800px) {
     .testimonial_title h1 {
