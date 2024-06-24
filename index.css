@@ -331,7 +331,27 @@ main {
     padding-top: 3em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
 }
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1em;
+    border-radius: var(--Primary_Border_Radius);
+    border: solid 0.1em var(--Primary);
+
+    transition: box-shadow var(--Transition_Time);
+}
+
+@media (width > 1000px) {
+    .testimonial:hover {
+        box-shadow: var(--Primary_Box_Shadow);
+    }
+}
+
 
 @media (width > 800px) {
     .testimonial_title h1 {
