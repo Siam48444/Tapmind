@@ -495,7 +495,8 @@ main {
     }
 
     .wells_div,
-    .services_div {
+    .services_div,
+    .contact_inputs_div {
         grid-template-columns: repeat(2, 1fr);
     }
 
