@@ -60,7 +60,7 @@ video {
     --Primary_Dark: #453ea3;
     --Black: #050505;
     --Gray: #838383;
-    --Light_Gray: #e7e7e7;
+    --Light_Gray: #efefef;
     --White: #fafafa;
 
     /* Fonts */
@@ -153,12 +153,19 @@ nav {
     font-weight: 400;
     color: var(--Gray);
     padding: 0.3em 0.5em;
+    border-radius: var(--Primary_Border_Radius);
 
-    transition: color var(--Transition_Time);
+    transition-property: color, background-color;
+    transition-duration: var(--Transition_Time);
+
+    &:hover {
+        background-color: var(--Light_Gray) !important;
+    }
 }
 
 .nav_active {
     color: var(--Primary);
+    background-color: var(--Light_Gray) !important;
 }
 
 .hamburger_button {
