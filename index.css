@@ -422,11 +422,25 @@ main {
 .contact_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 4em;
 }
 
 .contact_left {
     display: grid;
     place-items: center;
+}
+
+.contact_right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.contact_right h2 {
+    font-family: var(--Font_2);
+    font-size: 2em;
+    color: var(--Black);
 }
 
 @media (width < 1000px) {
