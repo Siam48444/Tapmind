@@ -515,6 +515,11 @@ main {
     .testimonial_title h1 {
         font-size: 2em;
     }
+
+    .contact_left {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 @media (width < 600px) {
@@ -546,5 +551,10 @@ main {
     .services h4,
     .about h3 {
         font-size: 1.2em;
+    }
+
+    .contact_left {
+        width: 70%;
+        margin: auto;
     }
 }
