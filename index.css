@@ -557,4 +557,8 @@ main {
         width: 70%;
         margin: auto;
     }
+
+    .contact_inputs_div input {
+        width: 100%;
+    }
 }
