@@ -57,7 +57,6 @@ main {
     position: relative;
 }
 
-
 .wellness_title p {
     font-family: var(--Font_1);
     font-size: 1.3em;
@@ -121,7 +120,6 @@ main {
 .services_section {
     position: relative;
 }
-
 
 .services_title h1 {
     font-family: var(--Font_2);
@@ -194,7 +192,6 @@ main {
 .about_section {
     position: relative;
 }
-
 
 .about_title h1 {
     font-family: var(--Font_2);
@@ -314,6 +311,31 @@ main {
 .about_svg_active {
     opacity: 1;
     scale: 1;
+}
+
+.testimonial_title h1 {
+    font-family: var(--Font_2);
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--Black);
+    margin: auto;
+}
+
+.testimonial_title p {
+    font-family: var(--Font_1);
+    font-size: 1.2em;
+    text-align: center;
+    color: var(--Gray);
+    margin: auto;
+}
+
+@media (width > 800px) {
+    .testimonial_title h1 {
+        width: 70%;
+    }
+    .testimonial_title p {
+        width: 60%;
+    }
 }
 
 @media (width < 1000px) {
