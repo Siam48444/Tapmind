@@ -249,7 +249,7 @@ main {
 .about {
     cursor: pointer;
     border: solid 0.1em var(--Primary);
-    padding: 1.5em;
+    padding: 1.5em 1em;
     border-radius: var(--Primary_Border_Radius);
     background-color: var(--White) !important;
     display: flex;
