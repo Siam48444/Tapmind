@@ -156,6 +156,10 @@ nav {
     transition: color var(--Transition_Time);
 }
 
+.nav_active {
+    color: var(--Primary);
+}
+
 .hamburger_button {
     cursor: pointer;
     display: none;
