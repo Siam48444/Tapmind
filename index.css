@@ -544,7 +544,7 @@ main {
 
     .wells h3,
     .services h4,
-    .about {
+    .about h3 {
         font-size: 1.2em;
     }
 }
