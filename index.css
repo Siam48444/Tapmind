@@ -302,7 +302,7 @@ main {
     place-items: center;
 
     opacity: 0;
-    scale: 0.95;
+    scale: 0.96;
 
     transition-property: scale, opacity;
     transition-duration: var(--Transition_Time);
