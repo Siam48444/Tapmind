@@ -268,7 +268,7 @@ main {
 
 .about p {
     font-family: var(--Font_1);
-    font-size: 1em;
+    font-size: 1.1em;
     color: var(--Black);
     text-align: left;
 }
@@ -504,6 +504,7 @@ main {
     .wellness_title p,
     .services_title p,
     .about_title p,
+    .about p,
     .testimonial_title p,
     .testimonial p {
         font-size: 1em;
