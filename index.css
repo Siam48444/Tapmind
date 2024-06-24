@@ -233,7 +233,7 @@ main {
 
 .about_div {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 0.9fr 1.1fr;
     gap: 3em;
     padding-top: 3em;
 }
@@ -251,11 +251,12 @@ main {
     border: solid 0.1em var(--Primary);
     padding: 1.5em;
     border-radius: var(--Primary_Border_Radius);
+    background-color: var(--White) !important;
     display: flex;
     align-items: center;
-    justify-content: left;
-    width: 100%;
+    justify-content: center;
     gap: 1em;
+    width: 100%;
 
     transition-property: box-shadow, background-color;
     transition-duration: var(--Transition_Time);
@@ -277,12 +278,14 @@ main {
     font-size: 1.5em;
     color: var(--Black);
     margin-bottom: 0.2em;
+    text-align: left;
 }
 
 .about p {
     font-family: var(--Font_1);
     font-size: 1em;
     color: var(--Black);
+    text-align: left;
 }
 
 .about_active {
@@ -330,7 +333,7 @@ main {
 }
 
 @media (width < 850px) {
-    .hero_container {
+    .hero_container,.about_div {
         grid-template-columns: 1fr;
     }
 
