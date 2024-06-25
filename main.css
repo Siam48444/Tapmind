@@ -207,7 +207,7 @@ footer {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    gap: 3em;
+    gap: 4em;
     flex-wrap: wrap;
 }
 
@@ -233,7 +233,8 @@ footer {
 .foot_logo_div {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    flex-wrap: wrap;
     gap: 0.8em;
 }
 
@@ -301,6 +302,16 @@ footer {
 @media (width < 1000px) {
     .hamburger_button {
         display: flex;
+    }
+}
+
+@media (width < 850px) {
+    .foot p {
+        font-size: 1em;
+    }
+
+    .foot h3 {
+        font-size: 1.3em;
     }
 }
 
