@@ -62,7 +62,7 @@ video {
     --Gray: #838383;
     --Light_Gray: #eaeaea;
     --White: #fafafa;
-    --Dark: #121926;
+    --Dark: #101020;
 
     /* Fonts */
     --Font_1: Font_1, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -208,7 +208,7 @@ footer {
     padding-bottom: 5em;
 }
 
-.foot  {
+.foot {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -216,14 +216,25 @@ footer {
     gap: 1em;
 }
 
-.foot_logo a svg {
-    height: 3em;
+.foot a svg {
+    height: 1.2em;
 }
 
 .foot p {
     font-family: var(--Font_1);
     font-size: 1.1em;
     color: var(--Light_Gray);
+}
+
+.foot_logo_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.foot_logo {
+    
 }
 
 @media (width < 1000px) {
