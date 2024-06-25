@@ -201,6 +201,31 @@ footer {
     position: relative;
 }
 
+.footer_top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* background-color: coral; */
+    padding-bottom: 5em;
+}
+
+.foot  {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1em;
+}
+
+.foot_logo a svg {
+    height: 3em;
+}
+
+.foot p {
+    font-family: var(--Font_1);
+    font-size: 1.1em;
+    color: var(--Light_Gray);
+}
+
 @media (width < 1000px) {
     .hamburger_button {
         display: flex;
