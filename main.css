@@ -193,6 +193,14 @@ nav {
     background-color: var(--White) !important;
 }
 
+footer {
+    background-color: var(--Dark) !important;
+}
+
+.footer_section {
+    position: relative;
+}
+
 @media (width < 1000px) {
     .hamburger_button {
         display: flex;
