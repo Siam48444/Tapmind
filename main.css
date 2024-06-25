@@ -258,6 +258,10 @@ footer {
 }
 
 .foot_logo svg {
+    fill: var(--White);
+}
+
+.foot_logo svg {
     fill: var(--Light_Gray);
 }
 
@@ -282,8 +286,16 @@ footer {
     }
 }
 
-.foot_logo svg {
-    fill: var(--White);
+.foot_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.foot_contact svg {
+    fill: var(--Light_Gray);
+    width: 1.5em;
 }
 
 @media (width < 1000px) {
