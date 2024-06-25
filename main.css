@@ -251,8 +251,14 @@ footer {
     transition: background-color var(--Transition_Time);
 }
 
+@media (width > 1000px) {
+    .foot_logo:hover {
+        background-color: var(--Primary) !important;
+    }
+}
+
 .foot_logo svg {
-    fill: var(--White);
+    fill: var(--Light_Gray);
 }
 
 .foot h3 {
@@ -261,9 +267,18 @@ footer {
     color: var(--White);
 }
 
+.foot:not(:first-child) a {
+    font-family: var(--Font_1);
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--Light_Gray);
+
+    transition: color var(--Transition_Time);
+}
+
 @media (width > 1000px) {
-    .foot_logo:hover {
-        background-color: var(--Primary) !important;
+    .foot:not(:first-child) a:hover {
+        color: var(--Primary);
     }
 }
 
