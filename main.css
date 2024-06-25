@@ -251,6 +251,10 @@ footer {
     transition: background-color var(--Transition_Time);
 }
 
+.foot_logo svg {
+    fill: var(--White);
+}
+
 .foot h3 {
     font-family: var(--Font_2);
     font-size: 1.5em;
