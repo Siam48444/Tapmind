@@ -62,6 +62,7 @@ video {
     --Gray: #838383;
     --Light_Gray: #eaeaea;
     --White: #fafafa;
+    --Dark: #121926;
 
     /* Fonts */
     --Font_1: Font_1, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

@@ -423,6 +423,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
+    padding-bottom: 10em;
 }
 
 .contact_left {
