@@ -59,10 +59,11 @@ video {
     --Primary: #6c63ff;
     --Primary_Dark: #453ea3;
     --Black: #050505;
-    --Gray: #838383;
+    --Gray: #757575;
     --Light_Gray: #eaeaea;
     --White: #fafafa;
     --Dark: #101020;
+    --Dark_Light: #203040;
 
     /* Fonts */
     --Font_1: Font_1, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -230,11 +231,31 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5em;
+    gap: 0.8em;
 }
 
 .foot_logo {
-    
+    border: none;
+    width: 3.5em;
+    padding: 0.8em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--Dark_Light) !important;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+
+    transition: background-color var(--Transition_Time);
+}
+
+@media (width > 1000px) {
+    .foot_logo:hover {
+        background-color: var(--Primary) !important;
+    }
+}
+
+.foot_logo svg {
+    fill: var(--White);
 }
 
 @media (width < 1000px) {
